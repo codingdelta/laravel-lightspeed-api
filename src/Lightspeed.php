@@ -2,6 +2,8 @@
 
 namespace Gunharth\Lightspeed;
 
+use WebshopappApiClient;
+
 class Lightspeed
 {
     protected $config;
