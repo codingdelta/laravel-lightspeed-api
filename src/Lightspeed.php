@@ -9,6 +9,10 @@ class Lightspeed
     public function __construct($config)
     {
         $this->config = $config;
+    }
+
+    public function createClient($config)
+    {   
         $this->api = new \WebshopappApiClient($config['cluster_id'], $config['api_key'], $config['api_secret'], $config['locale']);
     }
 
