@@ -5,6 +5,7 @@ namespace Gunharth\Lightspeed;
 class Lightspeed
 {
     protected $config;
+    protected WebshopappApiClient $api;
 
     public function __construct($config)
     {
